@@ -1,0 +1,10 @@
+{
+  "generator-angm": {
+    "appName": "pocui",
+    "angularCookies": true,
+    "angularAnimate": true,
+    "angularSanitize": true,
+    "angularBootstrap": true,
+    "angularMaterial": true
+  }
+}

@@ -1,0 +1,11 @@
+<div class="md-padding" flex layout-sm="row">
+    <form name="userForm">
+        <md-input-container>
+            <input placeholder="Username" ng-model="usr">
+        </md-input-container>
+        <md-input-container>
+            <input placeholder="Password"   type="password" ng-model="pwd">
+        </md-input-container>
+        <md-button class="md-primary" ng-click="vm.signIn(usr,pwd)">Login</md-button>
+    </form>
+</div>
